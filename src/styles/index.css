@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+	background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+	background-size: 0 2px;
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size .5s ease-in-out;
+}
+
+.link-underline:hover {
+  background-size: 100% 2px;
+  background-position: 0 100%
+}
+
+.active {
+  border-bottom-width: 2px;
+}
+
+.main-content {
+  min-height: 80vh;
+  overflow: hidden;
+}
+
+.about-bottom {
+  width: 100vw;
+}
+
+.tecnologia {
+  height: fit-content;
+  margin-right: 5px;
+}
+
+.icono {
+  padding: 5px 50px 0;
+}
+
+footer {
+  margin-top: auto;
+  height: 8vh;
+}
+
+.about-left {
+  animation: slide-left 4s forwards ease;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(-500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+}
+
+.about-right {
+  opacity: 0;
+  animation: slide-right 4s forwards ease;
+  animation-delay: 0.2s;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 100%;
+  }
+}
