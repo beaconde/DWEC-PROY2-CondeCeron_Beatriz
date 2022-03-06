@@ -13,7 +13,7 @@ const Header = () => {
                 <ul className='flex justify-center text-lightViolet text-lg'>
                     <li className='hover:scale-110 hover:text-white link-underline mx-6'>
                         <NavLink 
-                            to="/"
+                            to={process.env.PUBLIC_URL + '/'}
                             className={activePage === 'about' && activeStyle}
                             onClick={() => setActivePage('about')}
                         >
@@ -22,7 +22,7 @@ const Header = () => {
                     </li>
                     <li className='mx-6 hover:scale-110 hover:text-white link-underline'>
                         <NavLink 
-                            to="/academics"
+                            to={process.env.PUBLIC_URL + '/academics'}
                             className={activePage === 'academics' && activeStyle}
                             onClick={() => setActivePage('academics')}
                         >
@@ -31,7 +31,7 @@ const Header = () => {
                     </li>
                     <li className='mx-6 hover:scale-110 hover:text-white link-underline'>
                         <NavLink 
-                            to="/portfolio"
+                            to={process.env.PUBLIC_URL + '/portfolio'}
                             className={activePage === 'portfolio' && activeStyle}
                             onClick={() => setActivePage('portfolio')}
                         >
@@ -40,7 +40,7 @@ const Header = () => {
                     </li>
                     <li className='mx-6 hover:scale-110 hover:text-white link-underline'>
                         <NavLink 
-                            to="/utility"
+                            to={process.env.PUBLIC_URL + '/utility'}
                             className={activePage === 'utility' && activeStyle}
                             onClick={() => setActivePage('utility')}
                         >

@@ -11,10 +11,10 @@ function App() {
     <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<About/>}/>
-        <Route path="/academics" element={<Academics/>}/>
-        <Route path="/portfolio" element={<Portfolio/>}/>
-        <Route path="/utility" element={<Utility/>}/>
+        <Route path={process.env.PUBLIC_URL + '/'} element={<About/>}/>
+        <Route path={process.env.PUBLIC_URL + '/academics'} element={<Academics/>}/>
+        <Route path={process.env.PUBLIC_URL + '/portfolio'} element={<Portfolio/>}/>
+        <Route path={process.env.PUBLIC_URL + '/utility'} element={<Utility/>}/>
       </Routes>
       <Footer/>
     </Router>
