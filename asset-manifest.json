@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/DWEC-PROY2-CondeCeron_Beatriz/static/css/main.c1af3784.css",
-    "main.js": "/DWEC-PROY2-CondeCeron_Beatriz/static/js/main.7750f70b.js",
+    "main.js": "/DWEC-PROY2-CondeCeron_Beatriz/static/js/main.131544f6.js",
     "static/media/ev-0.png": "/DWEC-PROY2-CondeCeron_Beatriz/static/media/ev-0.c0d57b55ea92a9c8680d.png",
     "static/media/pokemon.png": "/DWEC-PROY2-CondeCeron_Beatriz/static/media/pokemon.7e57e49db6961a8202d9.png",
     "static/media/pinkgram.png": "/DWEC-PROY2-CondeCeron_Beatriz/static/media/pinkgram.829a75b4088fa2662254.png",
     "static/media/clicker.png": "/DWEC-PROY2-CondeCeron_Beatriz/static/media/clicker.cef2062d15c3b3f96e51.png",
     "index.html": "/DWEC-PROY2-CondeCeron_Beatriz/index.html",
     "main.c1af3784.css.map": "/DWEC-PROY2-CondeCeron_Beatriz/static/css/main.c1af3784.css.map",
-    "main.7750f70b.js.map": "/DWEC-PROY2-CondeCeron_Beatriz/static/js/main.7750f70b.js.map"
+    "main.131544f6.js.map": "/DWEC-PROY2-CondeCeron_Beatriz/static/js/main.131544f6.js.map"
   },
   "entrypoints": [
     "static/css/main.c1af3784.css",
-    "static/js/main.7750f70b.js"
+    "static/js/main.131544f6.js"
   ]
 }
